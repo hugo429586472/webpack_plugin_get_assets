@@ -18,5 +18,9 @@
   "dependencies": {
     "fs-extra": "^9.1.0",
     "schema-utils": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:hugo429586472/webpack_plugin_get_assets.git"
   }
 }
