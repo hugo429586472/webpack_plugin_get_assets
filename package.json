@@ -1,0 +1,22 @@
+{
+  "name": "webpack-plugin-get-assets",
+  "version": "0.0.1",
+  "description": "A webpack plugin of getting built assets",
+  "main": "index.js",
+  "scripts": {
+    "build:example": "webpack --config example/webpack4.config.js"
+  },
+  "keywords": ["webpack", "assets"],
+  "author": "hugo",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^5.0.0"
+  },
+  "peerDependencies": {
+    "webpack": "^5.0.0 || ^4.0.0 || ^3.0.0"
+  },
+  "dependencies": {
+    "fs-extra": "^9.1.0",
+    "schema-utils": "^3.0.0"
+  }
+}
