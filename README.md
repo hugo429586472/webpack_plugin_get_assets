@@ -14,10 +14,12 @@ A webpack plugin of getting built assets
 ## Usage
 
 ```js
+const WepackPluginGetAssets = require('webpack-plugin-get-assets')
+
 module.exports = {
   ...
   plugins: [
-    new WebpackGetFileNamePlugin({
+    new WepackPluginGetAssets({
       filename: "version.txt"
     })
     ...
